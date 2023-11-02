@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   calc-api:
-    image: <username>/lbg-grad-compose-api
+    image: jrhuc/lbg-grad-compose-api
     build: ./calculator-api
     ports:
       - target: 8080
